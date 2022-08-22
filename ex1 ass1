@@ -10,3 +10,5 @@ int main()
     cout << "your number is " << number << endl;
     return 0;
 }
+
+
