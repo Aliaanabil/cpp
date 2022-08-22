@@ -1,0 +1,20 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    int first , second , third ;
+    double average;
+    cout << "Please enter first number:";
+    cin >> first  ;
+    cout << "Please enter second number:";
+    cin >> second  ;
+    cout << "Please enter third number:";
+    cin >> third  ;
+    average=((first+second+third)/3.0) ;
+
+    cout << "average is " << average << endl;
+
+    return 0;
+}
