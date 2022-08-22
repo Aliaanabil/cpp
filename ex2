@@ -1,0 +1,18 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    int first , second , third ,sum;
+    cout << "Please enter first number:";
+    cin >> first  ;
+    cout << "Please enter second number:";
+    cin >> second  ;
+    cout << "Please enter third number:";
+    cin >> third  ;
+
+    cout << "sum is " << first+second+third << endl;
+
+    return 0;
+}
