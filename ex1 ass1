@@ -1,0 +1,12 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    float number;
+    printf("Enter number");
+    cin >> number;
+    cout << "your number is " << number << endl;
+    return 0;
+}
