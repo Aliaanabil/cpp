@@ -1,0 +1,17 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    int width , height ;
+    double perimeter,area;
+    cout << "Please enter rectangle width:";
+    cin >> width  ;
+    cout << "Please enter rectangle height:";
+    cin >> height  ;
+    cout << "perimeter of rectangle is " << 2*width + 2*height << endl;
+    cout << "area of rectangle is " << width*height << endl;
+
+    return 0;
+}
