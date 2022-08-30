@@ -1,0 +1,31 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    int n,first=0,second=1;
+    cin>>n;
+
+    for(int i=1 ;i<=n;i++)
+    if(i == 1){
+        cout << first<< endl;
+    }
+    else if (i==2)
+    {
+        cout << second<< endl;
+    }
+    else
+    {
+        int third=first+second;
+        cout << third<< endl;
+        first=second;
+        second=third;
+
+    }
+
+
+
+
+    return 0;
+}
