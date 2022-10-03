@@ -1,0 +1,22 @@
+#include <iostream>
+#include <cmath>
+
+using namespace std;
+
+int main()
+{
+
+    double n,r,p ,sum;
+     cout << "enter number of years";
+    cin >> n ;
+      cout << "enter original amount invested";
+    cin >> p ;
+      cout << "enter annual interest rate";
+    cin >> r ;
+
+    for(int i=1;i<=n;i++){
+        sum= p * pow(1+r,i);
+        cout << "amount of money in year"<< i <<"is"<< sum << endl;
+    }
+    return 0;
+}
